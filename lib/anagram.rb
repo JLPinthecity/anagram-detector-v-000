@@ -11,7 +11,7 @@ class Anagram
   def match(words)
     words.select do |i|
       i.chars.sort == @word.chars.sort
-    end  
+    end
   end
   end
 
