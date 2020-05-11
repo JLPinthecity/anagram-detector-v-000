@@ -13,6 +13,6 @@ class Anagram
       i.chars.sort == @word.chars.sort
     end
   end
-  end
+  
 
 end
