@@ -9,7 +9,6 @@ class Anagram
   end
 
   def match(words)
-
     words.map do |i|
       i.chars.sort == @word.chars.sort
     binding.pry
