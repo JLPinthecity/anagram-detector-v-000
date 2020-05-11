@@ -9,11 +9,9 @@ class Anagram
   end
 
   def match(words)
-    words.map do |i|
-      if i.chars.sort == @word.chars.sort
-      else
-        []
-      end
+    words.select do |i|
+      i.chars.sort == @word.chars.sort
+    end  
   end
   end
 
