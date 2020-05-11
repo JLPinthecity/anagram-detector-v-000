@@ -10,8 +10,9 @@ class Anagram
 
   def match(words)
     words.map do |i|
-      i.chars.sort == @word.chars.sort
-    binding.pry
+      if i.chars.sort == @word.chars.sort
+      else 
+        []
   end
   end
 
